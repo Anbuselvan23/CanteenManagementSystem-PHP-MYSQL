@@ -1,0 +1,74 @@
+/* Style for the product container */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Style for the product box */
+  .product-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Style for the button */
+  .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Style for the success message */
+  .success-message {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Style for the error message */
+  .error-message {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Style for the heading */
+  h3 {
+    font-size: 24px;
+    margin: 0 0 10px;
+  }
+  
+  /* Style for the paragraph */
+  p {
+    margin: 0;
+  }
+  
+  /* Style for the total price */
+  p.total-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .product-container {
+      width: 100%;
+    }
+    .product-box {
+      width: 90%;
+      margin: 0 auto;
+    }
+    .product-box p {
+      font-size: 16px;
+    }
+    .product-box button {
+      margin-top: 10px;
+    }
+  }
+  
